@@ -1,0 +1,5 @@
+.topbar { display: flex; width: min(1240px,100%); align-items: center; justify-content: space-between; min-height: 79px; margin: 0 auto; padding: 14px 42px 10px; }
+.topbar-title { display: grid; gap: 5px; }.topbar-title span { color: #929bad; font-size: 8px; font-weight: 700; letter-spacing: 1px; }.topbar-title span b { padding: 0 5px; color: #c2c8d2; }.topbar-title strong { font: 700 18px Manrope,sans-serif; }
+.topbar-actions { display: flex; align-items: center; gap: 18px; }.term-pill { padding: 8px 11px; border: 1px solid var(--line); border-radius: 20px; background: #fff; color: #596579; font-size: 9px; font-weight: 600; }.status-dot { display: inline-block; width: 7px; height: 7px; margin-right: 5px; border-radius: 50%; background: #43b88b; }
+.icon-button { position: relative; border: 0; background: transparent; color: #758195; font-size: 20px; }.icon-button i { position: absolute; top: 3px; right: 1px; width: 6px; height: 6px; border-radius: 50%; background: #ed7d5c; }
+@media(max-width: 760px) { .topbar { min-height: 72px; padding: 14px 18px 7px; }.topbar-title strong { font-size: 16px; }.term-pill { font-size: 8px; } }

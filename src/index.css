@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #182230;
+  background: #f5f7fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #182230;
+  --muted: #758195;
+  --line: #e9edf3;
+  --brand: #5546d7;
+  --brand-soft: #eeecff;
+  --surface: #fff;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input { font: inherit; }
+button { cursor: pointer; }
+a { color: inherit; text-decoration: none; }
+.page-data-message { margin: 18px 0; padding: 16px 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--muted); font-size: 14px; line-height: 1.55; }
+.page-data-message.error { border-color: #f2c9c5; background: #fff8f7; color: #a33c32; }
+
+/* Comfortable reading sizes across the portal UI. */
+.brand-copy { font-size: 14px; }
+.brand-copy small { font-size: 10px; }
+.main-nav-link { font-size: 13px; }
+.header-profile { font-size: 12px; }
+.topbar-title span { font-size: 10px; }
+.topbar-title strong { font-size: 21px; }
+.term-pill { font-size: 11px; }
+.page-heading span { font-size: 12px; }
+.page-heading h1 { font-size: 32px; }
+.page-heading p { font-size: 15px; }
+.stat-card { min-height: 164px; }
+.stat-icon { width: 36px; height: 36px; font-size: 17px; }
+.stat-label { font-size: 13px; }
+.stat-value { font-size: 27px; }
+.stat-detail { font-size: 12px; }
+.welcome-banner h2 { font-size: 29px; }
+.welcome-banner p { font-size: 14px; }
+.banner-progress { width: 205px; padding: 17px; }
+.banner-progress > span { font-size: 10px; }
+.banner-progress strong { font-size: 18px; }
+.banner-progress strong small { font-size: 12px; }
+.banner-progress > small { font-size: 11px; }
+.panel-heading h2 { font-size: 17px; }
+.panel-heading p, .panel-heading a { font-size: 12px; }
+.assignment-info strong, .assignment-table-row strong, .results-table-row > div strong, .result-mark { font-size: 12px; }
+.assignment-info small, .assignment-date, .assignment-state { font-size: 11px; }
+.course-meta strong { font-size: 12px; }
+.course-meta small, .course-percent, .course-footer, .course-footer button { font-size: 11px; }
+.course-footer a { color: var(--brand); font-size: 12px; font-weight: 700; }
+.course-label { font-size: 10px; }
+.course-card h2 { font-size: 17px; }
+.course-card p, .course-card-progress-label, .course-open { font-size: 12px; }
+.assignment-summary span, .assignment-table-title span, .assignment-table-row, .table-status { font-size: 12px; }
+.assignment-table-title h2, .results-table-title h2 { font-size: 17px; }
+.results-table-title span, .results-table-row { font-size: 12px; }
+.results-table-row > div small { font-size: 11px; }
+.results-note strong { font-size: 17px; }
+.results-note p { font-size: 13px; }
+.average-mark span { font-size: 10px; }
+.average-mark em { font-size: 11px; }
+.detail-group > span { font-size: 10px; }
+.detail-grid small { font-size: 11px; }
+.detail-grid strong { font-size: 12px; }
+.profile-identity h2 { font-size: 18px; }
+.profile-identity p { font-size: 12px; }
+.edit-profile { font-size: 12px; }
+
+@media (max-width: 760px) {
+  .main-nav-link { font-size: 12px; }
+  .topbar-title span { font-size: 9px; }
+  .topbar-title strong { font-size: 18px; }
+  .term-pill { font-size: 10px; }
+  .page-heading h1 { font-size: 27px; }
+  .page-heading p { font-size: 14px; }
+}

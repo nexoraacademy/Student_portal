@@ -1,0 +1,4 @@
+.portal-shell { min-height: 100vh; }
+.page-content { width: min(1240px, 100%); margin: 0 auto; padding: 34px 42px 56px; }
+@media (max-width: 760px) { .page-content { padding: 24px 18px 40px; } }
+.auth-loading { display: grid; min-height: 100vh; place-items: center; color: var(--muted); font-size: 14px; }
